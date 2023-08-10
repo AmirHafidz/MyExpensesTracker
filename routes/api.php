@@ -29,5 +29,5 @@ Route::post('/register',[AuthController::class,'register']);
 
 Route::apiResource('user',UserController::class);
 Route::apiResource('category',CategoriesController::class);
-Route::apiResource('userFinancial',UserFinancialController::class);
+Route::apiResource('user_financial',UserFinancialController::class);
 Route::apiResource('expenses',ExpensesController::class);
